@@ -1,11 +1,208 @@
-
-h1{
+*{
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.nav-bar{
+    width: 100%;
+    
     text-align: center;
-}
-nav{
-    background-color: aqua;
-    
-    
-    
+    background: black
     
 }
+.nav-bar a{
+    background: black;
+    display: inline-block;
+    padding: 21px 15px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;    
+    width: 15%;
+    border-radius: 4px;
+}
+a:hover:not(.active) {
+    background-color:rgb(250, 17, 17);
+}
+
+/* sophistcated starts here  */
+.sophistcated .paradiv{
+    background: rgb(8,55,101);
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(255,213,111);
+    font-family: 'sophistcated',  sans-serif;
+    line-height: 1.5;
+}
+.sophistcated p{
+    margin-bottom: 10px;
+}
+
+.sophistcated h1{
+    text-align: center;
+    background: rgb(255, 165, 10);
+    height: 100px;
+    padding: 30px;
+    color: aliceblue;
+}
+.sophistcated h2{
+    height: 50px;
+    background: rgb(147, 3, 3);
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+/* font  */
+@font-face{
+    font-family: 'sophistcated';
+    src: url(fonts/Quicksand-Regular.ttf);
+}
+
+/*End of sophistcated part  */
+/* <-------------------------------------------------------------> */
+/* Eneretic starts here  */
+
+.energetic h1{
+    text-align: center;
+    background: rgb(25, 0, 255);
+    height: 100px;
+    padding: 30px;
+    color:rgb(255,243,46);
+}
+.energetic h2{
+    height: 50px;
+    background: rgb(255, 14, 14);
+    padding: 10px 20px;
+    color: aliceblue;
+}
+.energetic .paradiv{
+    background: rgb(255,243,46);
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'energy',  sans-serif;
+    line-height: 1.6;
+    font-size: 22px;
+}
+.energetic p{
+    margin-bottom: 10px;
+}
+
+/* font  */
+@font-face{
+    font-family: 'energy';
+    src: url(fonts/Amiri/Amiri-Bold.ttf);
+}
+
+/*End of Energetic part  */
+
+/* <-------------------------------------------------------------> */
+
+/* Relaxed starts here */
+
+.relaxed h1{
+    text-align: center;
+    background: rgb(0, 115, 51);
+    height: 100px;
+    padding: 30px;
+    color: aliceblue;
+}
+.relaxed h2{
+    height: 50px;
+    background: rgb(0, 191, 97);
+    padding: 10px 20px;
+    color: aliceblue;
+}
+.relaxed .paradiv{
+    background: rgb(45, 250, 151);
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(51, 50, 50);
+    font-family: 'relaxed',  sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.relaxed p{
+    margin-bottom: 10px;
+}
+
+/* font  */
+@font-face{
+    font-family: 'relaxed';
+    src: url(fonts/Rubik/Rubik-Regular.ttf);
+}
+
+/* End of Relaxed */
+
+/* <-------------------------------------------------------------> */
+
+/* Coporate starts here */
+.corporate h1{
+    text-align: center;
+    background: rgb(177, 15, 3);
+    height: 100px;
+    padding: 30px;
+    color: aliceblue;
+}
+.corporate h2{
+    height: 50px;
+    background: rgb(0,110,153);
+    padding: 10px 20px;
+    color: aliceblue;
+}
+.corporate .paradiv{
+    background: rgb(0,44,61);
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(250, 250, 250);
+    font-family: 'corporate',  sans-serif;
+    line-height: 1.5;
+}
+.corporate p{
+    margin-bottom: 10px;
+}
+
+/* font  */
+@font-face{
+    font-family: 'corporate';
+    src: url(fonts/Cinzel/Cinzel-Regular.ttf);
+}
+
+/* End of Coporate part */
+
+/* <-------------------------------------------------------------> */
+
+/* Fun starts here */
+
+.fun h1{
+    text-align: center;
+    background: rgb(224, 40, 178);
+    height: 100px;
+    padding: 30px;
+    color: rgb(251, 255, 1);
+}
+.fun h2{
+    height: 50px;
+    background: rgb(5, 190, 45);
+    padding: 10px 20px;
+    color: aliceblue;
+}
+.fun .paradiv{
+    background: rgb(89, 1, 253);
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(251, 255, 1);
+    font-family: 'sophistcated',  sans-serif;
+    line-height: 1.3;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 26px;
+}
+.fun p{
+    margin-bottom: 10px;
+}
+
+/* fonts */
+
+/* End of Fun part */
+
+/* <-------------------------------------------------------------> */
+
